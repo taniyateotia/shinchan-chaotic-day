@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shinchan's Chaotic Day</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating background decorations -->
+    <div class="floating floating-1">🌸</div>
+    <div class="floating floating-2">⭐</div>
+    <div class="floating floating-3">🍪</div>
+    <div class="floating floating-4">☁️</div>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="location-badge">
+            📍 KASUKABE
+        </div>
+
+        <h1>
+            🌸 Shinchan's <span>Chaotic Day</span> 🌸
+        </h1>
+
+        <p>
+            Welcome to Kasukabe... where nothing goes as planned! 😈
+        </p>
+
+    </header>
+
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+        <div class="stat-box chaos-stat">
+            <span>😈 CHAOS</span>
+            <strong id="chaosScore">0</strong>
+        </div>
+
+        <div class="stat-box snack-stat">
+            <span>🍪 SNACKS</span>
+            <strong id="snackScore">0</strong>
+        </div>
+
+        <div class="stat-box best-stat">
+            <span>🏆 BEST</span>
+            <strong id="bestScore">0</strong>
+        </div>
+
+        <div class="stat-box combo-stat">
+            <span>🔥 COMBO</span>
+            <strong id="comboScore">x0</strong>
+        </div>
+
+    </section>
+
+
+    <!-- MAIN GAME -->
+
+    <main>
+
+        <section class="game-world">
+
+            <!-- Sky -->
+
+            <div class="sun">☀️</div>
+
+            <div class="cloud cloud-1">☁️</div>
+            <div class="cloud cloud-2">☁️</div>
+
+
+            <!-- Kasukabe -->
+
+            <div class="house house-left">
+                🏠
+            </div>
+
+            <div class="house house-right">
+                🏡
+            </div>
+
+            <div class="tree tree-left">
+                🌳
+            </div>
+
+            <div class="tree tree-right">
+                🌳
+            </div>
+
+
+            <!-- Road -->
+
+            <div class="road"></div>
+
+
+            <!-- MESSAGE -->
+
+            <div id="message">
+
+                What should Shinchan do today? 🤔
+
+            </div>
+
+
+            <!-- CHARACTER -->
+
+            <div id="character">
+
+                <div class="shinchan-head">
+
+                    <div class="hair"></div>
+
+                    <div class="eye eye-left"></div>
+                    <div class="eye eye-right"></div>
+
+                    <div class="mouth"></div>
+
+                </div>
+
+                <div class="shinchan-body">
+
+                    <div class="arm arm-left"></div>
+                    <div class="arm arm-right"></div>
+
+                    <div class="shirt"></div>
+
+                    <div class="shorts"></div>
+
+                    <div class="leg leg-left"></div>
+                    <div class="leg leg-right"></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CHAOS BUTTON -->
+
+            <button id="chaosButton">
+
+                😈
+                <span>CAUSE CHAOS</span>
+
+            </button>
+
+
+            <!-- COMBO MESSAGE -->
+
+            <div id="comboMessage">
+                Click fast to build a combo! 🔥
+            </div>
+
+
+            <!-- EFFECTS -->
+
+            <div id="effects"></div>
+
+        </section>
+
+
+        <!-- CONTROL PANEL -->
+
+        <section class="controls">
+
+            <button id="moodButton">
+
+                🎲
+                <span>Shinchan's Mood</span>
+
+            </button>
+
+
+            <button id="snackButton">
+
+                🍪
+                <span>Find a Snack</span>
+
+            </button>
+
+
+            <button id="escapeButton">
+
+                🚨
+                <span>Misae is Coming!</span>
+
+            </button>
+
+
+            <button id="themeButton">
+
+                🌙
+                <span>Night Mode</span>
+
+            </button>
+
+        </section>
+
+
+        <!-- ESCAPE TIMER -->
+
+        <div id="escapePanel" class="hidden">
+
+            <h2>🚨 Misae is Coming!</h2>
+
+            <p>Click RUN before she catches you!</p>
+
+            <div id="timer">5.00</div>
+
+            <button id="runButton">
+                🏃 RUN!
+            </button>
+
+        </div>
+
+
+        <!-- EASTER EGG -->
+
+        <div id="secretMessage" class="secret hidden">
+
+            🥚 SECRET UNLOCKED!
+
+            <br>
+
+            You clicked chaos 42 times.
+
+            <br>
+
+            Shinchan is officially impressed. 😎
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            🌸 Shinchan's Chaotic Day
+        </p>
+
+        <small>
+            Made with HTML ❤️ CSS ❤️ JavaScript
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
